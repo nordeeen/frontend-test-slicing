@@ -11,12 +11,12 @@ const MainSale = () => {
         loading="eager"
         className="w-[65px] h-[65px] object-contain"
       />
-      <div className="w-[1300px]">
+      <div className="w-[700px]">
         <h4 className="text-5xl font-semibold text-center text-black">
           Tingkatkan Penjualan Sampah dan Limbah dengan Menjadi Mitra Pituku
         </h4>
       </div>
-      <div className="w-[1300px]">
+      <div className="w-[700px]">
         <p className="text-3xl font-normal text-center text-gray-600 mt-6">
           Bergabung bersama kami dengan menjadi Mitra untuk mendapatkan akses
           pembeli sampah dan limbah di indonesia
