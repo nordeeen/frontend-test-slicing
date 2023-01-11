@@ -4,7 +4,7 @@ import setting from '../assets/setting.png';
 
 const Header = () => {
   return (
-    <header className="container:md h-auto bg-white px-9 py-6 flex justify-between items-center mb-10 sticky top-0 z-50 drop-shadow-md shadow-black">
+    <header className="container h-auto bg-white px-9 py-6 flex justify-between items-center mb-10 sticky top-0 z-50 drop-shadow-md shadow-black">
       <div className="flex">
         <img
           src={logoHeader}
