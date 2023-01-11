@@ -24,7 +24,11 @@ const MainPrice = () => {
           </p>
         </div>
       </div>
-      <div className="px-8">
+      <div
+        data-aos="fade-left"
+        data-aos-once="true"
+        data-aos-duration="1000"
+        className="px-8">
         <img
           src={priceContent}
           alt="price-content"

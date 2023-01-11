@@ -5,7 +5,11 @@ import solutionContent from '../assets/feature2.png';
 const MainSolution = () => {
   return (
     <div className="w-full h-auto bg-white px-6 py-8 flex justify-around items-center mt-16">
-      <div className="px-8">
+      <div
+        data-aos="fade-right"
+        data-aos-once="true"
+        data-aos-duration="1000"
+        className="px-8">
         <img
           src={solutionContent}
           alt="solution-content"

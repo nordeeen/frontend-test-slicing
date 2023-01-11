@@ -22,7 +22,11 @@ const MainSale = () => {
           pembeli sampah dan limbah di indonesia
         </p>
       </div>
-      <div className="flex items-center justify-center mt-6">
+      <div
+        data-aos="fade-up"
+        data-aos-once="true"
+        data-aos-duration="1000"
+        className="flex items-center justify-center mt-6">
         <img
           src={imgHero}
           alt="img-bg"

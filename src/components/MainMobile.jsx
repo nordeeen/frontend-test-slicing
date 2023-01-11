@@ -5,7 +5,11 @@ import appStore from '../assets/app-store.png';
 
 const MainMobile = () => {
   return (
-    <div className="w-full h-auto bg-white px-3 py-10 flex justify-center items-center space-x-8">
+    <div
+      data-aos="zoom-in"
+      data-aos-once="true"
+      data-aos-duration="1000"
+      className="w-full h-auto bg-white px-3 py-10 flex justify-center items-center space-x-8">
       <img
         src={mobilePlay}
         alt="mobile"

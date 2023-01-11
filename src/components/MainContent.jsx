@@ -6,7 +6,12 @@ import thumb from '../assets/pituku-thumbnail.png';
 const MainContent = () => {
   return (
     <div className="w-full h-auto bg-white px-6 py-3 flex justify-between items-center">
-      <div className="w-full h-full flex justify-center items-start px-6">
+      <div
+        data-aos="flip-left"
+        data-aos-once="true"
+        data-aos-duration="1000"
+        className="w-full h-full flex justify-center items-start px-6"
+      >
         <img
           src={contentPage}
           alt="content-img"
@@ -34,6 +39,9 @@ const MainContent = () => {
             </p>
           </div>
           <img
+            data-aos="zoom-in-out"
+            data-aos-once="true"
+            data-aos-duration="1000"
             src={thumb}
             alt="pituku-thumb"
             loading="eager"
