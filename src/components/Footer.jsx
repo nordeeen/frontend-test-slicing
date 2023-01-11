@@ -30,7 +30,7 @@ const medsos = [
 
 const Footer = () => {
   return (
-    <div className="w-full h-auto bg-[#FADA9D] px-6 py-12 flex">
+    <div className="w-full h-auto bg-[#FADA9D] px-6 py-16 flex">
       <div className="w-auto h-auto px-8 flex flex-col items-start">
         <img
           src={logoFooter}

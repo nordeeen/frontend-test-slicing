@@ -20,6 +20,10 @@ function App() {
     AOS.refresh();
   }, []);
 
+  window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <div>
       <Header/>
