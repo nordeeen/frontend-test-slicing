@@ -28,11 +28,13 @@ const HeroContent = () => {
         <img
           src={Banner}
           alt="banner-pertama"
+          loading='eager'
           className="w-[100%] h-auto object-cover"
         />
         <img
           src={BannerSecond}
           alt="banner-second"
+          loading='eager'
           className="w-[400px] object-cover"
         />
       </div>

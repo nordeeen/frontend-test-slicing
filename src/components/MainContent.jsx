@@ -10,6 +10,7 @@ const MainContent = () => {
         <img
           src={contentPage}
           alt="content-img"
+          loading="eager"
           className="w-[80%] h-auto object-cover"
         />
       </div>
@@ -17,6 +18,7 @@ const MainContent = () => {
         <img
           src={smallContent}
           alt="icon-content"
+          loading="eager"
           className="w-[65px] h-[65px] object-contain"
         />
         <div className="space-y-8">
@@ -34,6 +36,7 @@ const MainContent = () => {
           <img
             src={thumb}
             alt="pituku-thumb"
+            loading="eager"
             className="w-[700px] h-auto object-cover rounded-lg"
           />
         </div>

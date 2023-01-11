@@ -8,6 +8,7 @@ const MainSale = () => {
       <img
         src={smallContent}
         alt="icon-content"
+        loading="eager"
         className="w-[65px] h-[65px] object-contain"
       />
       <div className="w-[1300px]">
@@ -25,6 +26,7 @@ const MainSale = () => {
         <img
           src={imgHero}
           alt="img-bg"
+          loading="eager"
           className="w-[70%] h-auto object-cover"
         />
       </div>

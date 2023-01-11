@@ -9,23 +9,34 @@ const MainSwiper = () => {
       <img
         src={smallContent}
         alt="icon-content"
+        loading="eager"
         className="w-[65px] h-[65px] object-contain"
       />
-      <div className='w-[60%] mb-10'>
+      <div className="w-[60%] mb-10">
         <h4 className="text-5xl font-medium text-center text-black">
           Kelola Sampah dan Limbah dengan Mudah sebagai Mitra
         </h4>
       </div>
-      <div className='w-[65%]'>
+      <div className="w-[65%]">
         <p className="text-3xl font-semibold text-center text-black">
           Mitra Pituku dapat melakukan pembaharuan stok, harga penjualan,
           kualitas sampah dan limbah secara real-time
         </p>
       </div>
-      <div className='w-[60%] flex justify-start items-center'>
-        <img src={OvalBlue} alt="icon-oval" className='w-[100px] h-[100px] object-contain' />
+      <div className="w-[60%] flex justify-start items-center">
+        <img
+          src={OvalBlue}
+          alt="icon-oval"
+          loading="eager"
+          className="w-[100px] h-[100px] object-contain"
+        />
       </div>
-        <img src={fakeImg} alt="img" className="w-[100%] h-auto object-contain py-8" />
+      <img
+        src={fakeImg}
+        alt="img"
+        loading="eager"
+        className="w-[100%] h-auto object-contain py-8"
+      />
     </div>
   );
 }

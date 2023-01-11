@@ -9,6 +9,7 @@ const MainSolution = () => {
         <img
           src={solutionContent}
           alt="solution-content"
+          loading="eager"
           className="w-[700px] h-auto object-cover"
         />
       </div>
@@ -16,6 +17,7 @@ const MainSolution = () => {
         <img
           src={smallContent}
           alt="icon-content"
+          loading="eager"
           className="w-[65px] h-[65px] object-contain"
         />
         <div className="w-[600px]">

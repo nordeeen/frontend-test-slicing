@@ -9,6 +9,7 @@ const Header = () => {
         <img
           src={logoHeader}
           alt="logo-header"
+          loading='eager'
           className="w-[150px] h-auto object-contain mr-10"
         />
         <ul className="flex justify-between items-center space-x-10 text-2xl font-semibold text-black">
@@ -33,7 +34,7 @@ const Header = () => {
       <div className="flex justify-between items-center space-x-5 uppercase text-xl font-semibold text-black">
         <a href="/#">Masuk</a>
         <a href="/#" className="px-8 py-3 bg-[#4CAF50] text-white rounded-xl">Daftar</a>
-        <img src={setting} alt="icon-setting" className='w-[35px] h-[35px] object-contain' />
+        <img src={setting} alt="icon-setting" loading='eager' className='w-[35px] h-[35px] object-contain' />
       </div>
     </header>
   );

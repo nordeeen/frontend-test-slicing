@@ -35,6 +35,7 @@ const Footer = () => {
         <img
           src={logoFooter}
           alt="logo-footer"
+          loading='eager'
           className="w-[100px] h-auto object-contain"
         />
         <div className="w-[350px] mb-6">
@@ -86,6 +87,7 @@ const Footer = () => {
                   <img
                     src={val.logo}
                     alt={val.alt}
+                    loading="eager"
                     className="w-[24px] h-[24px] object-contain"
                   />
                 </a>

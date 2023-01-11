@@ -8,6 +8,7 @@ import MainSolution from './components/MainSolution';
 import MainSwiper from './components/MainSwiper';
 import Footer from './components/Footer';
 import MainSale from './components/MainSale';
+import MainMobile from './components/MainMobile';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <MainSolution/>
       <MainSale/>
       <MainSwiper/>
+      <MainMobile/>
       <Footer/>
     </div>
   );
