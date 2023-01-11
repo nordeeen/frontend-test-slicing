@@ -4,7 +4,7 @@ import priceContent from '../assets/feature1.png';
 
 const MainPrice = () => {
   return (
-    <div className="w-full h-auto bg-white px-6 py-8 flex justify-around items-center mt-16">
+    <div className="w-full h-auto bg-white px-6 py-16 flex justify-around items-center mt-16">
       <div className="flex flex-col justify-between items-start py-6">
         <img
           src={smallContent}

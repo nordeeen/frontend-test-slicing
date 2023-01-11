@@ -4,7 +4,7 @@ import imgHero from '../assets/feature3.png';
 
 const MainSale = () => {
   return (
-    <div className="w-full h-auto bg-white px-6 py-3 flex flex-col justify-center items-center space-y-6 my-10">
+    <div className="w-full h-auto bg-white px-6 py-16 flex flex-col justify-center items-center space-y-6 my-16">
       <img
         src={smallContent}
         alt="icon-content"
